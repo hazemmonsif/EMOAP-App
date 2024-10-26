@@ -4,6 +4,8 @@
 ## Project Overview
 The Electronic Mind of Alzheimer Patient is an advanced healthcare management system tailored to assist caregivers in managing Alzheimer's patients. This application integrates real-time patient monitoring, appointment scheduling, and medication management across mobile platforms using Flutter, with a robust backend supported by FastAPI and AI capabilities for facial recognition.
 
+**As the Project Leader**, I spearheaded the development process, ensuring that our team stayed aligned with project goals and timelines. I contributed to architectural decisions, managed team collaboration, and oversaw the integration of core features to create a seamless user experience for caregivers and patients.
+
 ## Key Features
 - **User Authentication**: Secure role-based access control with ASP.NET Core Identity, JWT for authentication, and face recognition for patient login.
 - **Real-Time Communication**: Utilizes SignalR for live updates on patient location, appointment scheduling, and medication alerts.
@@ -17,38 +19,32 @@ The Electronic Mind of Alzheimer Patient is an advanced healthcare management sy
 This project incorporates a variety of technologies, each chosen for their specific strengths in handling aspects of backend development, security, frontend integration, and more.
 
 ### Backend Technologies
-
 - **FastAPI**: Chosen for its high performance and ease of use, FastAPI is used to handle asynchronous server requests, enhancing the application's responsiveness. It also provides automatic interactive API documentation.
 - **ASP.NET Core**: Utilized for its robustness in developing secure and scalable applications. It simplifies user management and secure authentication.
 - **Entity Framework Core**: This ORM simplifies data interaction, allowing for LINQ queries and strong type-checking, which minimizes runtime errors.
 - **SignalR**: Employed for its real-time web functionality, enabling instant communication for updates on patient tracking, appointments, and medication reminders.
 
 ### AI & Image Processing
-
 - **OpenCV**: Used for image processing tasks, enhancing image quality before they are processed for facial recognition, thereby improving accuracy.
 - **face_recognition library**: Implements facial detection and recognition efficiently, essential for the application's feature allowing patients to identify family and caregivers easily.
 
 ### Security
-
 - **JWT (JSON Web Tokens)**: Secures information transmission between parties, essential for creating access tokens post-authentication.
 - **ASP.NET Core Identity**: Manages user authentication and authorization, supporting features like password hashing and role management.
 
 ### Frontend
-
 - **Flutter**: Allows compilation into native applications from a single codebase, providing a seamless user experience across all platforms.
 
 ### Database
-
 - **Microsoft SQL Server**: Chosen for its robustness and scalability, it handles all application data securely and efficiently.
 
 ### Other Tools
-
 - **SMTP for email services**: Handles all email-related functionalities within the application, including alerts and notifications.
 - **GitHub for version control**: Manages source code, tracking changes, and collaborative development effectively.
 
 ## Development Approach
 - Applied Agile methodologies for rapid development cycles and continuous iteration based on user feedback.
-- Collaborated with a multidisciplinary team to align backend solutions with frontend needs and user experience.
+- **Led a multidisciplinary team** to align backend solutions with frontend needs and user experience, ensuring the project met all technical and user requirements.
 
 ## Repository Structure
 ```
